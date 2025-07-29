@@ -2,8 +2,8 @@
 # string starting from index 1.
 
 def printString(name):
-    for i in name:
-        print(i)
+    for i in range(1, len(name), 2):
+        print(name[i])
 
 firatName = "Piyush"
 printString(firatName)
